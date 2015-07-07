@@ -1,0 +1,724 @@
+start.................................
+Array
+(
+    [0] => Array
+        (
+            [iduzivatel] => 500057
+            [datum] => 2015-05-13
+            [cas] => 1452531
+            [uzel] => 6102
+            [uzelzkr] => OFT-AMB
+            [uzelnazov] => Ambulancia - Klinika detskej oftalmológie
+            [scpac] => 487
+            [pristup] => Zmena nálezu
+            [upresnenie] => Ambulantný nález : Uloženie asti textu íslo 0 s kúom 45650771 (kú zoznamu 45650627), džka celého textu je 2176
+        )
+
+    [1] => Array
+        (
+            [iduzivatel] => 500057
+            [datum] => 2015-05-13
+            [cas] => 145253
+            [uzel] => 6102
+            [uzelzkr] => OFT-AMB
+            [uzelnazov] => Ambulancia - Klinika detskej oftalmológie
+            [scpac] => 487
+            [pristup] => Zmena nálezu
+            [upresnenie] => Ambulantný nález : Technický výmaz asti textu íslo 0 s kúom 45650769 (kú zoznamu 45650627)
+        )
+
+    [2] => Array
+        (
+            [iduzivatel] => 500057
+            [datum] => 2015-05-13
+            [cas] => 145253
+            [uzel] => 6102
+            [uzelzkr] => OFT-AMB
+            [uzelnazov] => Ambulancia - Klinika detskej oftalmológie
+            [scpac] => 487
+            [pristup] => Zmena nálezu
+            [upresnenie] => Ambulantný nález : Technický výmaz asti textu íslo 0 s kúom 45650770 (kú zoznamu 45650629)
+        )
+
+    [3] => Array
+        (
+            [iduzivatel] => 325834
+            [datum] => 2015-05-13
+            [cas] => 1452472
+            [uzel] => 6020
+            [uzelzkr] => PSY-ODD
+            [uzelnazov] => Psychiatrické odelenie
+            [scpac] => 486419
+            [pristup] => Zmena žiad.
+            [upresnenie] => Nová metóda (idordmetoda=5482633): idmetoda: 29948; idodber: 950686; idordmetoda: 5482633; idlabpracovisko: 6; Doplnková k pacientovi: yes; idbiomat: 33; 
+        )
+
+    [4] => Array
+        (
+            [iduzivatel] => 325834
+            [datum] => 2015-05-13
+            [cas] => 1452472
+            [uzel] => 6020
+            [uzelzkr] => PSY-ODD
+            [uzelnazov] => Psychiatrické odelenie
+            [scpac] => 486419
+            [pristup] => Zmena žiad.
+            [upresnenie] => Nová metóda (idordmetoda=5482634): idmetoda: 29998; idodber: 950687; idordmetoda: 5482634; idlabpracovisko: 7; Doplnková k pacientovi: yes; idbiomat: 58; 
+        )
+
+    [5] => Array
+        (
+            [iduzivatel] => 325834
+            [datum] => 2015-05-13
+            [cas] => 1452472
+            [uzel] => 6020
+            [uzelzkr] => PSY-ODD
+            [uzelnazov] => Psychiatrické odelenie
+            [scpac] => 486419
+            [pristup] => Zmena žiad.
+            [upresnenie] => Nová metóda (idordmetoda=5482635): idmetoda: 30001; idodber: 950686; idordmetoda: 5482635; idlabpracovisko: 6; Doplnková k pacientovi: yes; idbiomat: 33; 
+        )
+
+    [6] => Array
+        (
+            [iduzivatel] => 325834
+            [datum] => 2015-05-13
+            [cas] => 1452472
+            [uzel] => 6020
+            [uzelzkr] => PSY-ODD
+            [uzelnazov] => Psychiatrické odelenie
+            [scpac] => 486419
+            [pristup] => Zmena žiad.
+            [upresnenie] => Nová metóda (idordmetoda=5482636): idmetoda: 30002; idodber: 950686; idordmetoda: 5482636; idlabpracovisko: 6; Doplnková k pacientovi: yes; idbiomat: 33; 
+        )
+
+    [7] => Array
+        (
+            [iduzivatel] => 325834
+            [datum] => 2015-05-13
+            [cas] => 1452472
+            [uzel] => 6020
+            [uzelzkr] => PSY-ODD
+            [uzelnazov] => Psychiatrické odelenie
+            [scpac] => 486419
+            [pristup] => Zmena žiad.
+            [upresnenie] => Nová metóda (idordmetoda=5482637): idmetoda: 30003; idodber: 950686; idordmetoda: 5482637; idlabpracovisko: 6; Doplnková k pacientovi: yes; idbiomat: 33; 
+        )
+
+    [8] => Array
+        (
+            [iduzivatel] => 325834
+            [datum] => 2015-05-13
+            [cas] => 1452472
+            [uzel] => 6020
+            [uzelzkr] => PSY-ODD
+            [uzelnazov] => Psychiatrické odelenie
+            [scpac] => 486419
+            [pristup] => Zmena žiad.
+            [upresnenie] => Nová metóda (idordmetoda=5482638): idmetoda: 30007; idodber: 950686; idordmetoda: 5482638; idlabpracovisko: 6; Doplnková k pacientovi: yes; idbiomat: 33; 
+        )
+
+    [9] => Array
+        (
+            [iduzivatel] => 325834
+            [datum] => 2015-05-13
+            [cas] => 1452472
+            [uzel] => 6020
+            [uzelzkr] => PSY-ODD
+            [uzelnazov] => Psychiatrické odelenie
+            [scpac] => 486419
+            [pristup] => Zmena žiad.
+            [upresnenie] => Nová metóda (idordmetoda=5482639): idmetoda: 30009; idodber: 950686; idordmetoda: 5482639; idlabpracovisko: 6; Doplnková k pacientovi: yes; idbiomat: 33; 
+        )
+
+    [10] => Array
+        (
+            [iduzivatel] => 325834
+            [datum] => 2015-05-13
+            [cas] => 1452472
+            [uzel] => 6020
+            [uzelzkr] => PSY-ODD
+            [uzelnazov] => Psychiatrické odelenie
+            [scpac] => 486419
+            [pristup] => Zmena žiad.
+            [upresnenie] => Nová metóda (idordmetoda=5482640): idmetoda: 30010; idodber: 950686; idordmetoda: 5482640; idlabpracovisko: 6; Doplnková k pacientovi: yes; idbiomat: 33; 
+        )
+
+    [11] => Array
+        (
+            [iduzivatel] => 325834
+            [datum] => 2015-05-13
+            [cas] => 1452472
+            [uzel] => 6020
+            [uzelzkr] => PSY-ODD
+            [uzelnazov] => Psychiatrické odelenie
+            [scpac] => 486419
+            [pristup] => Zmena žiad.
+            [upresnenie] => Nová metóda (idordmetoda=5482641): idmetoda: 30011; idodber: 950686; idordmetoda: 5482641; idlabpracovisko: 6; Doplnková k pacientovi: yes; idbiomat: 33; 
+        )
+
+    [12] => Array
+        (
+            [iduzivatel] => 325834
+            [datum] => 2015-05-13
+            [cas] => 1452471
+            [uzel] => 6020
+            [uzelzkr] => PSY-ODD
+            [uzelnazov] => Psychiatrické odelenie
+            [scpac] => 486419
+            [pristup] => Zmena žiad.
+            [upresnenie] => RIadok             :  -> 29948,29998,30001,30002,30003,30007,30009,30010,30011; 
+        )
+
+    [13] => Array
+        (
+            [iduzivatel] => 325834
+            [datum] => 2015-05-13
+            [cas] => 1452471
+            [uzel] => 6020
+            [uzelzkr] => PSY-ODD
+            [uzelnazov] => Psychiatrické odelenie
+            [scpac] => 486419
+            [pristup] => Zmena žiad.
+            [upresnenie] => PZS:  -> P43059105101; NS:  -> 110530101; KL:  -> A50924105; Základná dg.:  -> F430;  (vpKey=1107656)
+        )
+
+    [14] => Array
+        (
+            [iduzivatel] => 325834
+            [datum] => 2015-05-13
+            [cas] => 145247
+            [uzel] => 6020
+            [uzelzkr] => PSY-ODD
+            [uzelnazov] => Psychiatrické odelenie
+            [scpac] => 486419
+            [pristup] => Nová žiad.
+            [upresnenie] => udodber: 13975360; scudal: 13975361; Pripravené                : -; Odobrané          : -; Prijaté                      : -; Vyšetrené                  : -; Vydané          : -; Kód diagnózy      : F430; Odber kde                  : 1; VarS: 110530101; Odbornos                  : 1; Žiadate           : Šuba Ján; Dátum ordinácie: 13/05/15; as ordinácie: 1452; Dátum odberu  : 14/05/15; as odberu: 1451; Ordinoval: 325834; Lekár: A50924105; Kód oddelenia: P43059105101; Uzol: 6020; Rezerva 1: 6020; Rezerva 2: |platce=|2700|cPoznLab=||cZadal=|325834; 
+        )
+
+    [15] => Array
+        (
+            [iduzivatel] => 500057
+            [datum] => 2015-05-13
+            [cas] => 145245
+            [uzel] => 6102
+            [uzelzkr] => OFT-AMB
+            [uzelnazov] => Ambulancia - Klinika detskej oftalmológie
+            [scpac] => 487
+            [pristup] => Zmena nálezu
+            [upresnenie] => Prístupnos: 0 (chránené) -> 1 (nechránené); 
+        )
+
+    [16] => Array
+        (
+            [iduzivatel] => 328571
+            [datum] => 2015-05-13
+            [cas] => 145244
+            [uzel] => 6051
+            [uzelzkr] => 2DK-INT
+            [uzelnazov] => 2DK - Interné oddelenie veké deti
+            [scpac] => 587209
+            [pristup] => Vst. vyš.
+            [upresnenie] => 
+        )
+
+    [17] => Array
+        (
+            [iduzivatel] => 500057
+            [datum] => 2015-05-13
+            [cas] => 1452361
+            [uzel] => 6102
+            [uzelzkr] => OFT-AMB
+            [uzelnazov] => Ambulancia - Klinika detskej oftalmológie
+            [scpac] => 487
+            [pristup] => Zmena nálezu
+            [upresnenie] => Ambulantný nález : Uloženie asti textu íslo 0 s kúom 45650769 (kú zoznamu 45650627), džka celého textu je 2176
+        )
+
+    [18] => Array
+        (
+            [iduzivatel] => 500057
+            [datum] => 2015-05-13
+            [cas] => 145236
+            [uzel] => 6102
+            [uzelzkr] => OFT-AMB
+            [uzelnazov] => Ambulancia - Klinika detskej oftalmológie
+            [scpac] => 487
+            [pristup] => Zmena nálezu
+            [upresnenie] => Ambulantný nález : Technický výmaz asti textu íslo 0 s kúom 45650628 (kú zoznamu 45650627)
+        )
+
+    [19] => Array
+        (
+            [iduzivatel] => 500057
+            [datum] => 2015-05-13
+            [cas] => 145236
+            [uzel] => 6102
+            [uzelzkr] => OFT-AMB
+            [uzelnazov] => Ambulancia - Klinika detskej oftalmológie
+            [scpac] => 487
+            [pristup] => Zmena nálezu
+            [upresnenie] => Ambulantný nález : Technický výmaz asti textu íslo 0 s kúom 45650630 (kú zoznamu 45650629)
+        )
+
+    [20] => Array
+        (
+            [iduzivatel] => 25255
+            [datum] => 2015-05-13
+            [cas] => 145236
+            [uzel] => 6037
+            [uzelzkr] => 1DK-DIA
+            [uzelnazov] => 1DK - Diabetologická ambulancia
+            [scpac] => 91991
+            [pristup] => Výsledky
+            [upresnenie] => 
+        )
+
+    [21] => Array
+        (
+            [iduzivatel] => 28272
+            [datum] => 2015-05-13
+            [cas] => 145232
+            [uzel] => 6120
+            [uzelzkr] => KDHO-MD
+            [uzelnazov] => KDHaO - malé deti
+            [scpac] => 0
+            [pristup] => Odhlásenie
+            [upresnenie] => Odchod z agendy Lôžkové oddelenie pre primára - TomoCon
+        )
+
+    [22] => Array
+        (
+            [iduzivatel] => 26239
+            [datum] => 2015-05-13
+            [cas] => 145230
+            [uzel] => 6065
+            [uzelzkr] => CHIR-ODB
+            [uzelnazov] => Chirurgická ambulancia - odborná
+            [scpac] => 0
+            [pristup] => Vstup
+            [upresnenie] => Konzíliá pre lekára, verzia = 3.41.A.02.30sk
+        )
+
+    [23] => Array
+        (
+            [iduzivatel] => 26239
+            [datum] => 2015-05-13
+            [cas] => 145230
+            [uzel] => 6065
+            [uzelzkr] => CHIR-ODB
+            [uzelnazov] => Chirurgická ambulancia - odborná
+            [scpac] => 0
+            [pristup] => CR vstup
+            [upresnenie] => 
+        )
+
+    [24] => Array
+        (
+            [iduzivatel] => 500067
+            [datum] => 2015-05-13
+            [cas] => 145229
+            [uzel] => 6052
+            [uzelzkr] => TJKD
+            [uzelnazov] => KDHaO - Transplantaná jednotka kostnej drene
+            [scpac] => 0
+            [pristup] => Odhlásenie
+            [upresnenie] => Odchod z agendy Lôžkové oddelenie pre lekára s výsl.
+        )
+
+    [25] => Array
+        (
+            [iduzivatel] => 25352
+            [datum] => 2015-05-13
+            [cas] => 145227
+            [uzel] => 6120
+            [uzelzkr] => KDHO-MD
+            [uzelnazov] => KDHaO - malé deti
+            [scpac] => 585485
+            [pristup] => Výsledky
+            [upresnenie] => 
+        )
+
+    [26] => Array
+        (
+            [iduzivatel] => 328571
+            [datum] => 2015-05-13
+            [cas] => 145226
+            [uzel] => 6051
+            [uzelzkr] => 2DK-INT
+            [uzelnazov] => 2DK - Interné oddelenie veké deti
+            [scpac] => 587209
+            [pristup] => Vst. vyš.
+            [upresnenie] => 
+        )
+
+    [27] => Array
+        (
+            [iduzivatel] => 26239
+            [datum] => 2015-05-13
+            [cas] => 145225
+            [uzel] => 6122
+            [uzelzkr] => KDHO-VD
+            [uzelnazov] => KDHaO - veké deti
+            [scpac] => 0
+            [pristup] => Odhlásenie
+            [upresnenie] => Odchod z agendy 
+        )
+
+    [28] => Array
+        (
+            [iduzivatel] => 28679
+            [datum] => 2015-05-13
+            [cas] => 145224
+            [uzel] => 6134
+            [uzelzkr] => KAIM-AMB
+            [uzelnazov] => KAIM-Amb. dets. anesteziol. a int. med.
+            [scpac] => 596634
+            [pristup] => Nálezy
+            [upresnenie] => 
+        )
+
+    [29] => Array
+        (
+            [iduzivatel] => 28679
+            [datum] => 2015-05-13
+            [cas] => 145222
+            [uzel] => 6134
+            [uzelzkr] => KAIM-AMB
+            [uzelnazov] => KAIM-Amb. dets. anesteziol. a int. med.
+            [scpac] => 0
+            [pristup] => Hláška
+            [upresnenie] => OK: Pacient už má v tejto ambulancii založenú kartu.
+        )
+
+    [30] => Array
+        (
+            [iduzivatel] => 126611
+            [datum] => 2015-05-13
+            [cas] => 145219
+            [uzel] => 6012
+            [uzelzkr] => NEU-ODD
+            [uzelnazov] => Klinika detskej  neurológie
+            [scpac] => 0
+            [pristup] => Hláška
+            [upresnenie] => OK: Na tomto poítai došlo pri niektorom z minulých sedení k havárii.
+Text, ktorý bol pri tom rozpísaný, sa uložil a teraz máte možnost ho obnovi.
+Vstúpte do okna, v ktorom došlo ku havárii, a stlate CTRL-R.
+Potom dostanete alšiu informáciu, ako text obnovi.
+
+Pokia neprevediete obnovu alebo výmaz textu, nebudú na tomto poítai ukladané 
+alšie prípadné zálohy
+
+Havária je indikována súborom .\work\zal-zpr.rtf.
+        )
+
+    [31] => Array
+        (
+            [iduzivatel] => 28679
+            [datum] => 2015-05-13
+            [cas] => 145219
+            [uzel] => 6134
+            [uzelzkr] => KAIM-AMB
+            [uzelnazov] => KAIM-Amb. dets. anesteziol. a int. med.
+            [scpac] => 596634
+            [pristup] => CR hadanie
+            [upresnenie] => 
+        )
+
+    [32] => Array
+        (
+            [iduzivatel] => 126611
+            [datum] => 2015-05-13
+            [cas] => 145219
+            [uzel] => 6012
+            [uzelzkr] => NEU-ODD
+            [uzelnazov] => Klinika detskej  neurológie
+            [scpac] => 599191
+            [pristup] => Správa
+            [upresnenie] => Prepúšacia správa, NEU-ODD, 28.04.15, v okn Z
+        )
+
+    [33] => Array
+        (
+            [iduzivatel] => 327258
+            [datum] => 2015-05-13
+            [cas] => 145215
+            [uzel] => 4001
+            [uzelzkr] => KLINIKA4
+            [uzelnazov] => Klinika 4
+            [scpac] => 600638
+            [pristup] => Nový pac.
+            [upresnenie] => Rodné íslo: 8656017634; Meno: Zuzana; Priezvisko: Sarew; Dátum narodenia: 01/06/86; Pohlavie: F; Pracovné meno: Sarew Zuzana; íslo OP, pasu: ST093707; 
+        )
+
+    [34] => Array
+        (
+            [iduzivatel] => 327258
+            [datum] => 2015-05-13
+            [cas] => 145215
+            [uzel] => 4001
+            [uzelzkr] => KLINIKA4
+            [uzelnazov] => Klinika 4
+            [scpac] => 600638
+            [pristup] => CR hadanie
+            [upresnenie] => 
+        )
+
+    [35] => Array
+        (
+            [iduzivatel] => 25255
+            [datum] => 2015-05-13
+            [cas] => 1452141
+            [uzel] => 6037
+            [uzelzkr] => 1DK-DIA
+            [uzelnazov] => 1DK - Diabetologická ambulancia
+            [scpac] => 91991
+            [pristup] => Zmena nálezu
+            [upresnenie] => Vývinové sledovanie: Uloženie asti textu íslo 0 s kúom 45650766 (kú zoznamu 45650765), džka celého textu je 731
+        )
+
+    [36] => Array
+        (
+            [iduzivatel] => 25557
+            [datum] => 2015-05-13
+            [cas] => 145214
+            [uzel] => 6122
+            [uzelzkr] => KDHO-VD
+            [uzelnazov] => KDHaO - veké deti
+            [scpac] => 229643
+            [pristup] => Správa
+            [upresnenie] => Ošetrovateský proces (Pediatria), KDHO-VD, 13.05.15, v seznamu
+        )
+
+    [37] => Array
+        (
+            [iduzivatel] => 25255
+            [datum] => 2015-05-13
+            [cas] => 145214
+            [uzel] => 6037
+            [uzelzkr] => 1DK-DIA
+            [uzelnazov] => 1DK - Diabetologická ambulancia
+            [scpac] => 91991
+            [pristup] => Nový nález
+            [upresnenie] => Typ: n; Názov: Vývinové sledovanie; Text: Zmena krátkeho textu; Uzol vlastníka: 6037; Kód 1. dg.: E1090; Text 1. dg.: Diabetes mellitus, typ 1, bez komplikácií, kompenzovaný; Ku šablóny: 31846700; 
+        )
+
+    [38] => Array
+        (
+            [iduzivatel] => 25255
+            [datum] => 2015-05-13
+            [cas] => 145214
+            [uzel] => 6037
+            [uzelzkr] => 1DK-DIA
+            [uzelnazov] => 1DK - Diabetologická ambulancia
+            [scpac] => 91991
+            [pristup] => Zmena nálezu
+            [upresnenie] => Kúe textu: ±±./work/tmp/ed-zpr.rtf -> ±±45650765±±45650767; Prístupnos:  () -> 0 (chránené); 
+        )
+
+    [39] => Array
+        (
+            [iduzivatel] => 25557
+            [datum] => 2015-05-13
+            [cas] => 1452131
+            [uzel] => 6122
+            [uzelzkr] => KDHO-VD
+            [uzelnazov] => KDHaO - veké deti
+            [scpac] => 229643
+            [pristup] => Zmena správy
+            [upresnenie] => OsProcPed: Uloženie asti textu íslo 0 s kúom 45650764 (kú zoznamu 45650763), džka celého textu je 1
+        )
+
+    [40] => Array
+        (
+            [iduzivatel] => 25557
+            [datum] => 2015-05-13
+            [cas] => 145213
+            [uzel] => 6122
+            [uzelzkr] => KDHO-VD
+            [uzelnazov] => KDHaO - veké deti
+            [scpac] => 229643
+            [pristup] => Nová správa
+            [upresnenie] => Typ: f; Názov: OsProcPed; Uzol vlastníka: 6122; Kód 1. dg.: C835; Text 1. dg.: Lymfoblastový lymfóm; Ku šablóny: 20331700; 
+        )
+
+    [41] => Array
+        (
+            [iduzivatel] => 25557
+            [datum] => 2015-05-13
+            [cas] => 145213
+            [uzel] => 6122
+            [uzelzkr] => KDHO-VD
+            [uzelnazov] => KDHaO - veké deti
+            [scpac] => 229643
+            [pristup] => Zmena správy
+            [upresnenie] => Text: Zmena krátkeho textu; 
+        )
+
+    [42] => Array
+        (
+            [iduzivatel] => 25557
+            [datum] => 2015-05-13
+            [cas] => 145213
+            [uzel] => 6122
+            [uzelzkr] => KDHO-VD
+            [uzelnazov] => KDHaO - veké deti
+            [scpac] => 229643
+            [pristup] => Zmena správy
+            [upresnenie] => Názov: OsProcPed -> Ošetrovateský proces (Pediatria); 
+        )
+
+    [43] => Array
+        (
+            [iduzivatel] => 25255
+            [datum] => 2015-05-13
+            [cas] => 145213
+            [uzel] => 6037
+            [uzelzkr] => 1DK-DIA
+            [uzelnazov] => 1DK - Diabetologická ambulancia
+            [scpac] => 0
+            [pristup] => Nový dok. ar
+            [upresnenie] => Založil: 25255
+        )
+
+    [44] => Array
+        (
+            [iduzivatel] => 28679
+            [datum] => 2015-05-13
+            [cas] => 145213
+            [uzel] => 6134
+            [uzelzkr] => KAIM-AMB
+            [uzelnazov] => KAIM-Amb. dets. anesteziol. a int. med.
+            [scpac] => 0
+            [pristup] => CR vstup
+            [upresnenie] => 
+        )
+
+    [45] => Array
+        (
+            [iduzivatel] => 328571
+            [datum] => 2015-05-13
+            [cas] => 1452101
+            [uzel] => 6051
+            [uzelzkr] => 2DK-INT
+            [uzelnazov] => 2DK - Interné oddelenie veké deti
+            [scpac] => 587209
+            [pristup] => Zmena anamn.
+            [upresnenie] => Anamnéza: Uloženie asti textu íslo 1 s kúom 45650760 (kú zoznamu 45650758)
+        )
+
+    [46] => Array
+        (
+            [iduzivatel] => 328571
+            [datum] => 2015-05-13
+            [cas] => 1452101
+            [uzel] => 6051
+            [uzelzkr] => 2DK-INT
+            [uzelnazov] => 2DK - Interné oddelenie veké deti
+            [scpac] => 587209
+            [pristup] => Zmena anamn.
+            [upresnenie] => Aktuálny: yes -> no; 
+        )
+
+    [47] => Array
+        (
+            [iduzivatel] => 328571
+            [datum] => 2015-05-13
+            [cas] => 145210
+            [uzel] => 6051
+            [uzelzkr] => 2DK-INT
+            [uzelnazov] => 2DK - Interné oddelenie veké deti
+            [scpac] => 587209
+            [pristup] => Nová anamn.
+            [upresnenie] => Názov: Anamnéza; Dát. zal.: 13/05/15; as zal.: 53529; Založil: 328571; Kú zoznamu rtf: ±±45650758±±45650761; Úrove: 3; Vlastník: 6051; Poradie: 1; Konfigurácia: 54; 
+        )
+
+    [48] => Array
+        (
+            [iduzivatel] => 328571
+            [datum] => 2015-05-13
+            [cas] => 1452091
+            [uzel] => 6051
+            [uzelzkr] => 2DK-INT
+            [uzelnazov] => 2DK - Interné oddelenie veké deti
+            [scpac] => 587209
+            [pristup] => Zmena anamn.
+            [upresnenie] => Anamnéza: Uloženie asti textu íslo 0 s kúom 45650759 (kú zoznamu 45650758), džka celého textu je 19636
+        )
+
+    [49] => Array
+        (
+            [iduzivatel] => 27297
+            [datum] => 2015-05-13
+            [cas] => 145208
+            [uzel] => 6066
+            [uzelzkr] => CHIR-TRA
+            [uzelnazov] => Traumatologická ambulancia
+            [scpac] => 0
+            [pristup] => Tla
+            [upresnenie] => kla_nalez_s_hlav_SK
+        )
+
+    [50] => 
+)
+
+CSV data.................................
+"iduzivatel"|"datum"|"cas"|"uzel"|"uzelzkr"|"uzelnazov"|"scpac"|"pristup"|"upresnenie"
+"500057"|"2015-05-13"|"1452531"|"6102"|"OFT-AMB"|"Ambulancia - Klinika detskej oftalmológie"|"487"|"Zmena nálezu"|"Ambulantný nález : Uloženie asti textu íslo 0 s kúom 45650771 (kú zoznamu 45650627), džka celého textu je 2176"
+"500057"|"2015-05-13"|"145253"|"6102"|"OFT-AMB"|"Ambulancia - Klinika detskej oftalmológie"|"487"|"Zmena nálezu"|"Ambulantný nález : Technický výmaz asti textu íslo 0 s kúom 45650769 (kú zoznamu 45650627)"
+"500057"|"2015-05-13"|"145253"|"6102"|"OFT-AMB"|"Ambulancia - Klinika detskej oftalmológie"|"487"|"Zmena nálezu"|"Ambulantný nález : Technický výmaz asti textu íslo 0 s kúom 45650770 (kú zoznamu 45650629)"
+"325834"|"2015-05-13"|"1452472"|"6020"|"PSY-ODD"|"Psychiatrické odelenie"|"486419"|"Zmena žiad."|"Nová metóda (idordmetoda=5482633): idmetoda: 29948; idodber: 950686; idordmetoda: 5482633; idlabpracovisko: 6; Doplnková k pacientovi: yes; idbiomat: 33; "
+"325834"|"2015-05-13"|"1452472"|"6020"|"PSY-ODD"|"Psychiatrické odelenie"|"486419"|"Zmena žiad."|"Nová metóda (idordmetoda=5482634): idmetoda: 29998; idodber: 950687; idordmetoda: 5482634; idlabpracovisko: 7; Doplnková k pacientovi: yes; idbiomat: 58; "
+"325834"|"2015-05-13"|"1452472"|"6020"|"PSY-ODD"|"Psychiatrické odelenie"|"486419"|"Zmena žiad."|"Nová metóda (idordmetoda=5482635): idmetoda: 30001; idodber: 950686; idordmetoda: 5482635; idlabpracovisko: 6; Doplnková k pacientovi: yes; idbiomat: 33; "
+"325834"|"2015-05-13"|"1452472"|"6020"|"PSY-ODD"|"Psychiatrické odelenie"|"486419"|"Zmena žiad."|"Nová metóda (idordmetoda=5482636): idmetoda: 30002; idodber: 950686; idordmetoda: 5482636; idlabpracovisko: 6; Doplnková k pacientovi: yes; idbiomat: 33; "
+"325834"|"2015-05-13"|"1452472"|"6020"|"PSY-ODD"|"Psychiatrické odelenie"|"486419"|"Zmena žiad."|"Nová metóda (idordmetoda=5482637): idmetoda: 30003; idodber: 950686; idordmetoda: 5482637; idlabpracovisko: 6; Doplnková k pacientovi: yes; idbiomat: 33; "
+"325834"|"2015-05-13"|"1452472"|"6020"|"PSY-ODD"|"Psychiatrické odelenie"|"486419"|"Zmena žiad."|"Nová metóda (idordmetoda=5482638): idmetoda: 30007; idodber: 950686; idordmetoda: 5482638; idlabpracovisko: 6; Doplnková k pacientovi: yes; idbiomat: 33; "
+"325834"|"2015-05-13"|"1452472"|"6020"|"PSY-ODD"|"Psychiatrické odelenie"|"486419"|"Zmena žiad."|"Nová metóda (idordmetoda=5482639): idmetoda: 30009; idodber: 950686; idordmetoda: 5482639; idlabpracovisko: 6; Doplnková k pacientovi: yes; idbiomat: 33; "
+"325834"|"2015-05-13"|"1452472"|"6020"|"PSY-ODD"|"Psychiatrické odelenie"|"486419"|"Zmena žiad."|"Nová metóda (idordmetoda=5482640): idmetoda: 30010; idodber: 950686; idordmetoda: 5482640; idlabpracovisko: 6; Doplnková k pacientovi: yes; idbiomat: 33; "
+"325834"|"2015-05-13"|"1452472"|"6020"|"PSY-ODD"|"Psychiatrické odelenie"|"486419"|"Zmena žiad."|"Nová metóda (idordmetoda=5482641): idmetoda: 30011; idodber: 950686; idordmetoda: 5482641; idlabpracovisko: 6; Doplnková k pacientovi: yes; idbiomat: 33; "
+"325834"|"2015-05-13"|"1452471"|"6020"|"PSY-ODD"|"Psychiatrické odelenie"|"486419"|"Zmena žiad."|"RIadok             :  -> 29948,29998,30001,30002,30003,30007,30009,30010,30011; "
+"325834"|"2015-05-13"|"1452471"|"6020"|"PSY-ODD"|"Psychiatrické odelenie"|"486419"|"Zmena žiad."|"PZS:  -> P43059105101; NS:  -> 110530101; KL:  -> A50924105; Základná dg.:  -> F430;  (vpKey=1107656)"
+"325834"|"2015-05-13"|"145247"|"6020"|"PSY-ODD"|"Psychiatrické odelenie"|"486419"|"Nová žiad."|"udodber: 13975360; scudal: 13975361; Pripravené                : -; Odobrané          : -; Prijaté                      : -; Vyšetrené                  : -; Vydané          : -; Kód diagnózy      : F430; Odber kde                  : 1; VarS: 110530101; Odbornos                  : 1; Žiadate           : Šuba Ján; Dátum ordinácie: 13/05/15; as ordinácie: 1452; Dátum odberu  : 14/05/15; as odberu: 1451; Ordinoval: 325834; Lekár: A50924105; Kód oddelenia: P43059105101; Uzol: 6020; Rezerva 1: 6020; Rezerva 2: |platce=|2700|cPoznLab=||cZadal=|325834; "
+"500057"|"2015-05-13"|"145245"|"6102"|"OFT-AMB"|"Ambulancia - Klinika detskej oftalmológie"|"487"|"Zmena nálezu"|"Prístupnos: 0 (chránené) -> 1 (nechránené); "
+"328571"|"2015-05-13"|"145244"|"6051"|"2DK-INT"|"2DK - Interné oddelenie veké deti"|"587209"|"Vst. vyš."|""
+"500057"|"2015-05-13"|"1452361"|"6102"|"OFT-AMB"|"Ambulancia - Klinika detskej oftalmológie"|"487"|"Zmena nálezu"|"Ambulantný nález : Uloženie asti textu íslo 0 s kúom 45650769 (kú zoznamu 45650627), džka celého textu je 2176"
+"500057"|"2015-05-13"|"145236"|"6102"|"OFT-AMB"|"Ambulancia - Klinika detskej oftalmológie"|"487"|"Zmena nálezu"|"Ambulantný nález : Technický výmaz asti textu íslo 0 s kúom 45650628 (kú zoznamu 45650627)"
+"500057"|"2015-05-13"|"145236"|"6102"|"OFT-AMB"|"Ambulancia - Klinika detskej oftalmológie"|"487"|"Zmena nálezu"|"Ambulantný nález : Technický výmaz asti textu íslo 0 s kúom 45650630 (kú zoznamu 45650629)"
+"25255"|"2015-05-13"|"145236"|"6037"|"1DK-DIA"|"1DK - Diabetologická ambulancia"|"91991"|"Výsledky"|""
+"28272"|"2015-05-13"|"145232"|"6120"|"KDHO-MD"|"KDHaO - malé deti"|"0"|"Odhlásenie"|"Odchod z agendy Lôžkové oddelenie pre primára - TomoCon"
+"26239"|"2015-05-13"|"145230"|"6065"|"CHIR-ODB"|"Chirurgická ambulancia - odborná"|"0"|"Vstup"|"Konzíliá pre lekára, verzia = 3.41.A.02.30sk"
+"26239"|"2015-05-13"|"145230"|"6065"|"CHIR-ODB"|"Chirurgická ambulancia - odborná"|"0"|"CR vstup"|""
+"500067"|"2015-05-13"|"145229"|"6052"|"TJKD"|"KDHaO - Transplantaná jednotka kostnej drene"|"0"|"Odhlásenie"|"Odchod z agendy Lôžkové oddelenie pre lekára s výsl."
+"25352"|"2015-05-13"|"145227"|"6120"|"KDHO-MD"|"KDHaO - malé deti"|"585485"|"Výsledky"|""
+"328571"|"2015-05-13"|"145226"|"6051"|"2DK-INT"|"2DK - Interné oddelenie veké deti"|"587209"|"Vst. vyš."|""
+"26239"|"2015-05-13"|"145225"|"6122"|"KDHO-VD"|"KDHaO - veké deti"|"0"|"Odhlásenie"|"Odchod z agendy "
+"28679"|"2015-05-13"|"145224"|"6134"|"KAIM-AMB"|"KAIM-Amb. dets. anesteziol. a int. med."|"596634"|"Nálezy"|""
+"28679"|"2015-05-13"|"145222"|"6134"|"KAIM-AMB"|"KAIM-Amb. dets. anesteziol. a int. med."|"0"|"Hláška"|"OK: Pacient už má v tejto ambulancii založenú kartu."
+"126611"|"2015-05-13"|"145219"|"6012"|"NEU-ODD"|"Klinika detskej  neurológie"|"0"|"Hláška"|"OK: Na tomto poítai došlo pri niektorom z minulých sedení k havárii.
+Text, ktorý bol pri tom rozpísaný, sa uložil a teraz máte možnost ho obnovi.
+Vstúpte do okna, v ktorom došlo ku havárii, a stlate CTRL-R.
+Potom dostanete alšiu informáciu, ako text obnovi.
+
+Pokia neprevediete obnovu alebo výmaz textu, nebudú na tomto poítai ukladané 
+alšie prípadné zálohy
+
+Havária je indikována súborom .\work\zal-zpr.rtf."
+"28679"|"2015-05-13"|"145219"|"6134"|"KAIM-AMB"|"KAIM-Amb. dets. anesteziol. a int. med."|"596634"|"CR hadanie"|""
+"126611"|"2015-05-13"|"145219"|"6012"|"NEU-ODD"|"Klinika detskej  neurológie"|"599191"|"Správa"|"Prepúšacia správa, NEU-ODD, 28.04.15, v okn Z"
+"327258"|"2015-05-13"|"145215"|"4001"|"KLINIKA4"|"Klinika 4"|"600638"|"Nový pac."|"Rodné íslo: 8656017634; Meno: Zuzana; Priezvisko: Sarew; Dátum narodenia: 01/06/86; Pohlavie: F; Pracovné meno: Sarew Zuzana; íslo OP, pasu: ST093707; "
+"327258"|"2015-05-13"|"145215"|"4001"|"KLINIKA4"|"Klinika 4"|"600638"|"CR hadanie"|""
+"25255"|"2015-05-13"|"1452141"|"6037"|"1DK-DIA"|"1DK - Diabetologická ambulancia"|"91991"|"Zmena nálezu"|"Vývinové sledovanie: Uloženie asti textu íslo 0 s kúom 45650766 (kú zoznamu 45650765), džka celého textu je 731"
+"25557"|"2015-05-13"|"145214"|"6122"|"KDHO-VD"|"KDHaO - veké deti"|"229643"|"Správa"|"Ošetrovateský proces (Pediatria), KDHO-VD, 13.05.15, v seznamu"
+"25255"|"2015-05-13"|"145214"|"6037"|"1DK-DIA"|"1DK - Diabetologická ambulancia"|"91991"|"Nový nález"|"Typ: n; Názov: Vývinové sledovanie; Text: Zmena krátkeho textu; Uzol vlastníka: 6037; Kód 1. dg.: E1090; Text 1. dg.: Diabetes mellitus, typ 1, bez komplikácií, kompenzovaný; Ku šablóny: 31846700; "
+"25255"|"2015-05-13"|"145214"|"6037"|"1DK-DIA"|"1DK - Diabetologická ambulancia"|"91991"|"Zmena nálezu"|"Kúe textu: ±±./work/tmp/ed-zpr.rtf -> ±±45650765±±45650767; Prístupnos:  () -> 0 (chránené); "
+"25557"|"2015-05-13"|"1452131"|"6122"|"KDHO-VD"|"KDHaO - veké deti"|"229643"|"Zmena správy"|"OsProcPed: Uloženie asti textu íslo 0 s kúom 45650764 (kú zoznamu 45650763), džka celého textu je 1"
+"25557"|"2015-05-13"|"145213"|"6122"|"KDHO-VD"|"KDHaO - veké deti"|"229643"|"Nová správa"|"Typ: f; Názov: OsProcPed; Uzol vlastníka: 6122; Kód 1. dg.: C835; Text 1. dg.: Lymfoblastový lymfóm; Ku šablóny: 20331700; "
+"25557"|"2015-05-13"|"145213"|"6122"|"KDHO-VD"|"KDHaO - veké deti"|"229643"|"Zmena správy"|"Text: Zmena krátkeho textu; "
+"25557"|"2015-05-13"|"145213"|"6122"|"KDHO-VD"|"KDHaO - veké deti"|"229643"|"Zmena správy"|"Názov: OsProcPed -> Ošetrovateský proces (Pediatria); "
+"25255"|"2015-05-13"|"145213"|"6037"|"1DK-DIA"|"1DK - Diabetologická ambulancia"|"0"|"Nový dok. ar"|"Založil: 25255"
+"28679"|"2015-05-13"|"145213"|"6134"|"KAIM-AMB"|"KAIM-Amb. dets. anesteziol. a int. med."|"0"|"CR vstup"|""
+"328571"|"2015-05-13"|"1452101"|"6051"|"2DK-INT"|"2DK - Interné oddelenie veké deti"|"587209"|"Zmena anamn."|"Anamnéza: Uloženie asti textu íslo 1 s kúom 45650760 (kú zoznamu 45650758)"
+"328571"|"2015-05-13"|"1452101"|"6051"|"2DK-INT"|"2DK - Interné oddelenie veké deti"|"587209"|"Zmena anamn."|"Aktuálny: yes -> no; "
+"328571"|"2015-05-13"|"145210"|"6051"|"2DK-INT"|"2DK - Interné oddelenie veké deti"|"587209"|"Nová anamn."|"Názov: Anamnéza; Dát. zal.: 13/05/15; as zal.: 53529; Založil: 328571; Kú zoznamu rtf: ±±45650758±±45650761; Úrove: 3; Vlastník: 6051; Poradie: 1; Konfigurácia: 54; "
+"328571"|"2015-05-13"|"1452091"|"6051"|"2DK-INT"|"2DK - Interné oddelenie veké deti"|"587209"|"Zmena anamn."|"Anamnéza: Uloženie asti textu íslo 0 s kúom 45650759 (kú zoznamu 45650758), džka celého textu je 19636"
+"27297"|"2015-05-13"|"145208"|"6066"|"CHIR-TRA"|"Traumatologická ambulancia"|"0"|"Tla"|"kla_nalez_s_hlav_SK"
