@@ -157,7 +157,7 @@ class sls extends app {
        
         $defaultTimeLimit = ini_get('max_execution_time');
         set_time_limit(2000);
-       $rows = 11641;
+       $rows = 14765;
 //         $rows = 500;
        $count = 100;
        echo "time limit......".$defaultTimeLimit;
@@ -189,7 +189,7 @@ class sls extends app {
                $mOffset = $r*$count;
            }
            
-           $query = sprintf("SELECT * FROM [sls_temp2] LIMIT %d,%d",$mOffset,$count);
+           $query = sprintf("SELECT * FROM [sls_dbf_import] LIMIT %d,%d",$mOffset,$count);
            
            echo $query."..<br>";
            
@@ -201,10 +201,10 @@ class sls extends app {
             
                echo "sql to read from sls......{$query}<br>";
                 $data = $result["table"];
-                for ($c=0;$c<10;$c++)
-                {
-                    $this->getSLSRowData($data);
-                }
+                //for ($c=0;$c<10;$c++)
+                //{
+                $this->getSLSRowData($data);
+                //}
            }
            else 
            {
@@ -216,7 +216,7 @@ class sls extends app {
        
        if ($runPart)
        {
-           $query = sprintf("SELECT * FROM [sls_temp2] LIMIT %d,%d",$nRuns*$count,$part);
+           $query = sprintf("SELECT * FROM [sls_dbf_import] LIMIT %d,%d",$nRuns*$count,$part);
            echo $query."..<br>";
            
            $result = $this->omega->sql_table($query);
@@ -226,10 +226,10 @@ class sls extends app {
            
                echo "sql to read from sls......{$query}<br>";
                $data = $result["table"];
-               for ($c=0;$c<10;$c++)
-               {
+//                for ($c=0;$c<10;$c++)
+//                {
                     $this->getSLSRowData($data);
-               }
+//                }
            }
            else
            {
@@ -247,7 +247,7 @@ class sls extends app {
     {
         
         $result = 0;
-        $query = sprintf("SELECT [cele_meno],[ev_cislo] FROM [sls_temp2] WHERE [cele_meno]='%s' GROUP BY [ev_cislo]",$name);
+        $query = sprintf("SELECT [cmeno],[evc] FROM [sls_dbf_import] WHERE [cmeno]='%s' GROUP BY [evc]",$name);
         
         $res = $this->omega->sql_table($query);
         
@@ -268,25 +268,25 @@ class sls extends app {
     private function getSLSRowData($data)
     {
         $dataCn = count($data);
-        
+        //var_dump($data);
         for ($i=0;$i<$dataCn;$i++)
         {
             $query = sprintf("
-                                SELECT  [t_sls.ev_cislo] AS [sls_code], [t_sls.cele_meno] AS [sls_name], [t_sls.titul] AS [sls_titel],
-                                        [t_sls.narodenie] AS [sls_birthdate], [t_sls.vstup] AS [sls_entry], 
+                                SELECT  [t_sls.evc] AS [sls_code], [t_sls.cmeno] AS [sls_name],
+                                        [t_sls.datnar] AS [sls_birthdate], [t_sls.vstupd] AS [sls_entry], 
                         
                                         [t_hce.uuid] AS [hce_uuid],
                                         [t_hce.code] AS [medic_hce_code]
                                         
-                                FROM [sls_temp2] AS [t_sls]
+                                FROM [sls_dbf_import] AS [t_sls]
                         
-                                   INNER JOIN [medic_cl_hce] AS [t_hce] ON [t_hce.name] = [t_sls.cele_meno]
+                                   INNER JOIN [medic_cl_hce] AS [t_hce] ON [t_hce.name] = [t_sls.cmeno]
                                   -- INNER JOIN [medic_cl_hci_hce_data] AS [t_hci_hce] ON [t_hci_hce.hce_code] = [t_hce.code]
                                   -- INNER JOIN [medic_cl_hci] AS [t_hci] ON [t_hci.code] = [t_hci_hce.hci_code]
                         
-                                WHERE [t_sls.cele_meno] ='%s'
+                                WHERE [t_sls.cmeno] ='%s'
                 
-                ",$data[$i]["cele_meno"]);
+                ",$data[$i]["cmeno"]);
             
             $res = $this->omega->sql_table($query);
             $this->log->logData($res,"chre");
@@ -310,28 +310,29 @@ class sls extends app {
                 }
                 else
                 {
-                    $reversedName = $this->tryReversedName($data[$i]["meno"]);
+                    $reversedName = $this->tryReversedName($data[$i]["cmeno"]);
                     
                     if (strlen($reversedName)>0)
                     {
                         $query = sprintf("
-                                SELECT  [t_sls.ev_cislo] AS [sls_code], [t_sls.cele_meno] AS [sls_name], [t_sls.titul] AS [sls_titel],
-                                        [t_sls.narodenie] AS [sls_birthdate], [t_sls.vstup] AS [sls_entry], 
+                                SELECT  [t_sls.evc] AS [sls_code], [t_sls.cmeno] AS [sls_name],
+                                        [t_sls.datnar] AS [sls_birthdate], [t_sls.vstupd] AS [sls_entry], 
                         
                                         [t_hce.uuid] AS [hce_uuid],
                                         [t_hce.code] AS [medic_hce_code]
                                         
-                                FROM [sls_temp2] AS [t_sls]
+                                FROM [sls_dbf_import] AS [t_sls]
                         
-                                   INNER JOIN [medic_cl_hce] AS [t_hce] ON [t_hce.name] = [t_sls.cele_meno]
+                                   INNER JOIN [medic_cl_hce] AS [t_hce] ON [t_hce.name] = [t_sls.cmeno]
                                   -- INNER JOIN [medic_cl_hci_hce_data] AS [t_hci_hce] ON [t_hci_hce.hce_code] = [t_hce.code]
                                   -- INNER JOIN [medic_cl_hci] AS [t_hci] ON [t_hci.code] = [t_hci_hce.hci_code]
                         
-                                WHERE [t_sls.cele_meno] = '%s'
+                                WHERE [t_sls.cmeno] ='%s'
                         
                                         ",$reversedName);
                         
                         $res = $this->omega->sql_table($query);
+                        
                         $this->log->logData($res,"chre");
 
                         if (count($res["table"])>0)
@@ -388,7 +389,7 @@ class sls extends app {
             }
             else
             {
-                $this->log->logData($res,"error in parse sls",true);
+                $this->log->logData($res,false,"error in parse sls",true);
                 var_dump($res);
                 exit;
             }
@@ -415,15 +416,15 @@ class sls extends app {
     private function saveEmptyData($data)
     {
         
-        $countNames = $this->checkExistsEntry($data["cele_meno"]);
+        $countNames = $this->checkExistsEntry($data["cmeno"]);
         
        
         $saveData = array(
-            "sls_code"          =>$data["ev_cislo"],
-            "sls_name"          =>$data["cele_meno"],
-            "sls_titel"          =>$data["titul"],
-            "sls_birthdate"     =>$this->convertSlsDate($data["narodenie"]),
-            "sls_entry"         =>$data["vstup"],
+            "sls_code"          =>$data["evc"],
+            "sls_name"          =>$data["cmeno"],
+            //"sls_titel"          =>$data["titul"],
+            "sls_birthdate"     =>$data["datnar"],
+            "sls_entry"         =>$data["vstupd"],
             "status"            =>"empty",
             "name_occur"        =>$countNames
             
@@ -441,7 +442,8 @@ class sls extends app {
         
         for ($i=0;$i<$dataCn;$i++)
         {
-            $data[$i]["sls_birthdate"] = $this->convertSlsDate($data[$i]["sls_birthdate"]);
+           // $data[$i]["sls_birthdate"] = $this->convertSlsDate($data[$i]["sls_birthdate"]);
+            $data[$i]["sls_birthdate"] = $data[$i]["sls_birthdate"];
             $data[$i]["status"] = "ok";
             $data[$i]["name_occur"] = $this->checkExistsEntry($data[$i]["sls_name"]);
             if (strlen($rName)>0)

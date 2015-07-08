@@ -72,7 +72,7 @@ class app {
 		
 		$this->db = new db(new mysqli($iniData["server"],$iniData["user"],$iniData["password"],$iniData["db"]));
 		
-		//$this->omega = new db(new mysqli($iniData["omega_server"],$iniData["omega_user"],$iniData["omega_passwd"],$iniData["omega_db"]));
+		$this->omega = new db(new mysqli($iniData["omega_server"],$iniData["omega_user"],$iniData["omega_passwd"],$iniData["omega_db"]));
 		
 		$this->log = new log();
 		

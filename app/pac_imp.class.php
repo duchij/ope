@@ -1,22 +1,50 @@
 <?php
 
-class paclog extends app {
+class pac_imp {
     
     var $startTime;
     var $endTime;
     
+    var $progressDb;
+    
+    var $progressUser;
+    var $progressPasswd;
+    
     function __construct()
     {
-        parent::__construct();
+        //parent::__construct();
+        $iniData = parse_ini_file("progress.ini");
+        
+        $this->progressDb   = $iniData["odbc_dns2"];
+        $this->progressUser = $iniData["odbc_user2"];
+        $this->progressPasswd = $iniData["brana92621"];
     } 
     
-    public function init($data)
+    
+    /***
+     * Otvori openOdbc connection a vrati resource ak chyba tak konci
+     * @return resource
+     */
+    private function openOdbc2()
     {
-        
-        //var_dump(get_extension_funcs("iconv"));
-        //echo iconv("cp1250","utf8","lalal");
-        
-        $this->importData($settings=array());
+        putenv("ODBCINI=/opt/datadirect71/odbc.ini");
+        putenv("ODBCINST=/opt/datadirect71/odbcinst.ini");
+    
+        //odbc_close_all();
+    
+        $res = odbc_pconnect($this->odbcDsn2, $this->progressUser,$this->progressPasswd);
+    
+        if ($res === false)
+        {
+            echo odbc_errormsg();
+            //$this->log->logData(odbc_errormsg(),false,"error to log to medea2",true);
+            exit;
+        }
+        else
+        {
+            //$this->log->logData(odbc_errormsg(),true,"logged to progress db",false);
+        }
+        return $res;
     }
     
     private function assocFields()
@@ -97,17 +125,7 @@ class paclog extends app {
         return $result;
         
     }
-    /**
-     * 
-     * @param mixed $inData
-     */
-    public function getData($inData)
-    {
-        if (is_array($inData))
-        {
-            
-        }
-    }
+    
     private function getLastId()
     {
         $query="SELECT [progress_id_zmeny] FROM [last_pac_sync] ORDER BY [id] DESC LIMIT 1";
@@ -150,29 +168,32 @@ class paclog extends app {
      *       @param int birth_num = rodne cislo bez lomky (najde vsetky zaznamy s rodnym cislom) - pomale
      *       @param date date = datum format rrrr-mm-dd vyhlada vsetky podla datumu spracovania
      *       @param string sql = vlastne sql, pozor tu sa prepocitavaju aj vlastne nazvy poli
-     *       @param boolean storeLastId = ak true ulozi posledne ID_ZMENY do vlastnej tabulky ak false neulozi
+     *       @param boolean storeLastId = ak true ulozi posledne ID_ZMENY do vlastnej tabulky ak false neulozi, pozor musi byt nadefinovane $this->db ev pozriet ina trieda na ukladanie
      *       
      * @return array startTime, endTime, totalTime, sqlUsed|string, customSql|string, results|array vysledok query,rowsCount|int pocet riadkov ziskanych z query
      */
     public function importData($settings)
     {       
-       putenv("ODBCINI=/opt/datadirect71/odbc.ini");
-	   putenv("ODBCINST=/opt/datadirect71/odbcinst.ini");
-	   
-	   $storeLastId = true;
-	   
-	   if (isset($settings["storeLastId"]))
-       {
-            $storeLastId = $settings["storeLastId"]; 
-       }
-	       
-       $customSql = false;
+           putenv("ODBCINI=/opt/datadirect71/odbc.ini");
+    	   putenv("ODBCINST=/opt/datadirect71/odbcinst.ini");
+    	   
+    	   $storeLastId = true;
+    	   
+    	   if (isset($settings["storeLastId"]))
+           {
+                $storeLastId = $settings["storeLastId"]; 
+           }
+    	       
+        $customSql = false;
 
         $medeaCon = $this->openOdbc2();
 //exit;
         if (count($settings)==0)
         {
-            $bRow = $this->getLastId();
+            if (isset($this->db))
+            {
+                $bRow = $this->getLastId();
+            }
             
             if (isset($bRow["progress_id_zmeny"]) && !empty($bRow["progress_id_zmeny"]))
             {
@@ -249,7 +270,11 @@ class paclog extends app {
         if (count($table)>0 && $storeLastId)
         {
             $pData = $table[count($table)-1];
-            $this->saveLastId($pData);
+            
+            if (isset($this->db))
+            {
+                $this->saveLastId($pData);
+            }
         }
         $this->endTime = microtime(true);
         
@@ -270,7 +295,7 @@ class paclog extends app {
         
        // $this->debug($result);
         
-       $this->log->logData($result,false,"query to medea db");
+       //$this->log->logData($result,false,"query to medea db");
         
        return $result;
     }
