@@ -1,0 +1,5 @@
+.settings/
+local_settings/settings.ini
+templates/template_c/*.php
+fnc/settings.ini
+log/
